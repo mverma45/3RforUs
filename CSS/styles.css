@@ -1,0 +1,77 @@
+/* Home Page */
+* {
+  font-size: 14px;
+}
+.logo {
+  height: 4em;
+  width: 4em;
+  margin: 0.5em;
+}
+.intro {
+  padding: 1em;
+}
+.main-banner {
+  text-align: center;
+  font-size: 5em;
+  font-family: "Dancing Script", cursive;
+}
+
+.consult {
+  display: block;
+  margin-left: 25%;
+  width: 200px;
+  padding: 40px;
+}
+.slogan {
+  padding: 5px;
+  font-family: "Dancing Script", cursive;
+}
+#space {
+  padding-top: 25em;
+}
+
+/* About Page */
+.about {
+  display: block;
+}
+
+/* Contact Us */
+.contact {
+  padding-top: 2em;
+  margin-left: 2em;
+}
+
+.card {
+  display: inline-block;
+  padding: 1em;
+  margin: 2em;
+}
+
+.card1 {
+  text-align: center;
+}
+
+.card-1 {
+  padding: 1em;
+}
+
+.back {
+  margin: 1em;
+}
+
+@media (max-width: 700px) {
+  .slogan,
+  .navbar-brand {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 700px) {
+  .consult {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}
